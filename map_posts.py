@@ -48,7 +48,7 @@ def fix_list(in_list):
 #        out_list[0] = out_list[0][1:]
 #    out_list = out_list[init_pos + 2:]
 #    out_list = out_list.replace("\n* ", "\n\n")
-    return out_list
+#    return out_list
 
 def get_string(comment_body, element):
     while "\n " in comment_body:
